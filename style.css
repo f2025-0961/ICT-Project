@@ -24,6 +24,20 @@ main {
     flex: 1;
 }
 
+h1 ,h2 {
+    text-align: center;
+}
+
+pre {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px;
+}
+
 /* Navbar */
 .navbar {
     background-color: #000000;

@@ -35,8 +35,12 @@ pre {
 }
 
 p {
-    text-align: center;
-    margin: 10px;
+    width: 80%;
+    /* or any width you prefer */
+    margin: 0 auto;
+    /* centers the paragraph block horizontally */
+    text-align: justify;
+    /* justifies the text inside the paragraph */
 }
 
 /* Navbar */
@@ -159,6 +163,7 @@ p {
 .card p {
     font-size: 14px;
     color: #333;
+    text-align: center;
 }
 
 .card a {
@@ -184,12 +189,22 @@ p {
     align-content: center;
 }
 
+#list_css {
+    text-align: left;
+    margin-left: 170px;
+}
+
 /* Footer */
 .footer {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
     padding: 20px;
+}
+
+#awareness_end {
+  margin: 10px ;
+  text-align: center;
 }
 
 /* Responsive */

@@ -29,12 +29,16 @@ h2 {
     text-align: center;
 }
 
+
+
 pre {
     text-align: center;
     margin: 10px;
 }
 
-p {
+p,
+h3,
+h4 {
     width: 80%;
     /* or any width you prefer */
     margin: 0 auto;
@@ -42,6 +46,7 @@ p {
     text-align: justify;
     /* justifies the text inside the paragraph */
 }
+
 
 /* Navbar */
 .navbar {
@@ -157,6 +162,7 @@ p {
 .card h3 {
     color: #38bdf8;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .card p {
@@ -188,8 +194,6 @@ p {
     align-content: center;
 }
 
-
-
 .team_card {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -216,7 +220,6 @@ p {
     margin-left: 170px;
 }
 
-/* Footer */
 .footer {
     background-color: #000000;
     color: #ffffff;
@@ -229,7 +232,6 @@ p {
     text-align: center;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .cards-container {
         flex-direction: column;
@@ -263,8 +265,6 @@ p {
     }
 }
 
-
-
 .resources-page {
     max-width: 1100px;
     margin: auto;
@@ -288,6 +288,7 @@ p {
 }
 
 .resource-card h3 {
+    text-align: center;
     margin-bottom: 6px;
     font-size: 1.2rem;
 }
@@ -321,7 +322,19 @@ p {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Responsive */
+#resources_link {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #38bdf8;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
 @media (max-width: 600px) {
     .resource-buttons {
         flex-direction: column;

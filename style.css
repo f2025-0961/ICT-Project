@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    
 }
 
 
@@ -346,12 +345,49 @@ main {
         align-items: center;
     }
 
+    .card {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .team_card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
     .hero h1 {
         font-size: 36px;
     }
 
     .hero p {
         font-size: 16px;
+    }
+
+    .video_container {
+        height: 300px;
+    }
+
+    .video_content .hero h1 {
+        font-size: 28px;
+    }
+
+    .video_content .hero p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+
+    .video_content .hero .btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .image_box img {
+        width: 80%;
     }
 
     .navbar {
@@ -370,6 +406,13 @@ main {
 
     .navbar .logo .logo-text {
         font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar nav a {
+        font-size: 14px;
+        margin: 5px 0;
     }
 }
 

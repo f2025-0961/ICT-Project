@@ -350,6 +350,7 @@ h4 {
 }
 
 .resource-card h3 {
+    text-align: center;
     margin-bottom: 6px;
     font-size: 1.2rem;
 }
@@ -358,9 +359,11 @@ h4 {
     font-size: 0.9rem;
     color: #555;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .resource-buttons {
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

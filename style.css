@@ -343,7 +343,7 @@ main {
     .cards-container {
         flex-direction: column;
         align-items: center;
-    }
+    } 
 
     .card {
         width: 90%;
